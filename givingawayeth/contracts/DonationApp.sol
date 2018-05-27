@@ -22,8 +22,6 @@ contract DonationApp is AragonApp {
     address[] donatorsList;
     donationRequest[] lstDonationRequests;
 
-    string hiTest = "Hello World";
-
     /// ACL
     bytes32 constant public SUGGEST_ROLE = keccak256("SUGGEST_ROLE");
     bytes32 constant public REQUEST_ROLE = keccak256("REQUEST_ROLE");
